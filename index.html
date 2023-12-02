@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <title>Сайт портфолио</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="header__logo">визитка</h1>
+            <div class="header__menu menu">
+                <button class="menu__btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </button>
+                <ul class="menu__list hide">
+                    <li class="menu__item">
+                        <a href="#info" class="menu__link">
+                            О себе
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#portfolio" class="menu__link">
+                            Портфолио
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="info" id="info">
+            <h2 class="info__title">О себе</h2>
+            <p class="info__fullname">
+                Шиян Максим Андреевич. Лучший прогер:)
+            </p>
+            <a href="https://t.me/ImRamblingFlounder" class="info__nickname">
+                Telegram
+                <p><a href="https://github.com/Maksimator05" class="info__nickname2"><p>
+                    GitHub
+            </a>
+        </div>
+        <div id="portfolio">
+            <button class="portfolio__style" id="portfolio__btn" onclick="myImg()">Открыть портфолио</button> <!--создание кнопки-->
+            <img id="img_1" style="display:none;" src="images/11.png"> <!--ссылка на изображение-->
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
